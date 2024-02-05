@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    z-index: -2;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+  background-color: white;
+}
+
+#backfoto {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-casa {
+    background-color: transparent;
+    padding: 15px;
+    color: #fff;
+    box-shadow: none;
+    backdrop-filter: blur(0px);
+  }
+  
+  .navbar-casa {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-casa img {
+    width: 8rem;
+    margin-top: 10px;
+  }
+  
+  .menu-toggle-casa {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar-casa {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-casa {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-casa li {
+    margin-right: 20px;
+  }
+  
+  .menu-casa a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.3s;
+    transition: 1s;
+    text-shadow: 1px 1px 3px black;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .menu-casa a:hover {
+    color: antiquewhite;
+    font-size: 20pt;
+  }
+
+  .face {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    margin-top: 10rem;
+    z-index: 1;
+  }
+  .face .cface {
+    width: 33rem;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+  }
+  .face .cface h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50pt;
+    text-shadow: 1px 1px 10px black;
+  }
+
+  .face .cface p {
+    color: gray;
+    font-size: 15pt;
+    text-shadow: 1px 1px 1px gray;
+  }
+  .face .cface .visite {
+    width: 8rem;
+    height: 3rem;
+    margin-left: -7rem;
+    margin-top: 20px;
+    padding-top:10px;
+    border: 2px white solid;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+
+  .face .cface .visite:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    scale: 1.1;
+    color: black;
+    text-shadow: none;
+  }
+  .face .cface a {
+    text-shadow: 1px 1px 10px black;
+    font-size: 15pt;
+    position: absolute;
+    color: white;
+    left: 20rem;
+    text-decoration: none;
+  }
+
+  .info {
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 40rem;
+  }
+
+  .info .info-container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .info .info-container h1 {
+    font-size: 50pt;
+    width: 40rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .info .info-container .prog h1 {
+    font-size: 30pt;
+    color: rgb(67, 67, 67);
+    width: 30rem;
+    margin: 30px;
+  }
+
+  .info .info-container .prog span {
+    font-size: 20pt;
+    width: 5rem;
+    color: rgb(67, 67, 67);
+  }
+
+
+
+  .rodape-casa {
+    width: 100%;
+    height: 22rem;
+    margin-top: 65rem;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+
+  }
+
+  .rodape-casa .rodape-content h1 {
+    margin-bottom: 10px;
+  }
+
+  .rodape-casa .rodape-content iframe {
+    box-shadow: 1px 1px 10px -2px white;
+    border-radius: 20px;
+    transition: 0.5s;
+
+  }
+  .rodape-casa .rodape-content iframe:hover {
+    rotate: -10deg;
+    transition: 0.5s;
+    scale: 1.1;
+
+  }
+  .rodape-casa .rodape-content p {
+    color: gray;
+    font-size: 15pt;
+    margin-bottom: 10px;
+    }
+
+    .rodape-casa .rodape-content a {
+      color: gray;
+      display: flex;
+      flex-direction: row;
+      font-size: 15pt;
+      margin-left: 1px;
+      margin-top: 10px;
+      text-decoration: underline;
+    }
+
+     .rodape-casa .rodape-content .link {
+      display: flex;
+      flex-direction: row;
+      margin-left: 5rem;
+      margin-bottom: 10px;
+    }
+  
+  @media screen and (max-width: 768px) {
+    .menu-toggle-casa {
+      display: block;
+    }
+  
+    .menu-casa {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.228);
+    }
+  
+    .menu-casa.show-casa {
+      display: flex;
+    }
+  
+    .menu-casa li {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+    }
+      
+  .navbar-escola-casa {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rodape-casa {
+    height: 30rem;
+  }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .menu-toggle-casa {
+      display: block;
+    }
+  
+    .menu-casa {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.228);
+    }
+  
+    .menu-casa.show-casa {
+      display: flex;
+    }
+  
+    .menu-casa li {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+    }
+      
+  .navbar-escola-casa {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rodape-casa {
+    height: 40rem;
+    padding-top: 10rem;
+  }
+
+  .info .info-container h1 {
+    font-size: 30pt;
+  }
+
+  .info .info-container .prog h1 {
+    font-size: 25pt;
+  } 
+  .info .info-container .prog span {
+    font-size: 12pt;
+  }
+
+  .info {
+    height: 30rem;
+  }
+
+  .face .cface h1 {
+    font-size: 30pt;
+    width: 15rem;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+  }
+  }

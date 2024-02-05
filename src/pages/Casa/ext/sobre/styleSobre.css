@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#backsilhueta {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.header-casa {
+  background-color: transparent;
+  padding: 15px;
+  color: #fff;
+  box-shadow: none;
+  backdrop-filter: blur(0px);
+}
+
+.navbar-casa {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-casa img {
+  width: 8rem;
+  margin-top: 10px;
+}
+
+.menu-toggle-casa {
+  display: none;
+  cursor: pointer;
+}
+
+.bar-casa {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-casa {
+  list-style: none;
+  display: flex;
+}
+
+.menu-casa li {
+  margin-right: 20px;
+}
+
+.menu-casa a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.3s;
+  transition: 1s;
+  padding: 16px;
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-casa a:hover {
+  color: antiquewhite;
+  font-size: 20pt;
+}
+
+.sobre {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sobre .sobre-content {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10rem;
+}
+
+.sobre .sobre-content h1 {
+  color: antiquewhite;
+  text-shadow: 1px 1px 10px  black;
+  margin-bottom: 20px;
+}
+
+.sobre .sobre-content p {
+  color: white;
+  text-shadow: 1px 1px 10px  black;
+  font-size: 20pt;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .menu-toggle-casa {
+    display: block;
+  }
+
+  .menu-casa {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.228);
+  }
+
+  .menu-casa.show-casa {
+    display: flex;
+  }
+
+  .menu-casa li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+    
+.navbar-escola-casa {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 640px) {
+  #backsilhueta {
+    height: 50rem;
+  }
+  .sobre .sobre-content {
+    width: 20rem;
+  }
+} 
+

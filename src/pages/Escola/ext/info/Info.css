@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navB {
+    width: 100%;
+    background-color: #343F64;
+    height: 4.1rem;
+  }
+  
+  .navB .container {
+    align-items: center;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  }
+  
+  .navB .container img {
+    width: 8rem;
+    position: absolute;
+    margin-left: -10rem;
+    margin-top:5rem;
+    border-radius:1px 1px 1rem 1rem ;
+  
+  }
+  
+  .navB .container a{
+    margin-top: 25px;
+  }
+  
+  
+  .navB .container .logo {
+    position: absolute;
+  }

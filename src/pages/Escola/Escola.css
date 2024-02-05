@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'face';
+}
+
+@font-face {
+  font-family: 'face';
+  src: url('./BabySchoolItalic.ttf');
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+a {
+  color: black;
+}
+
+
+.header-escola {
+  background-color: #047851;
+  padding: 15px;
+  color: #fff;
+}
+
+.navbar-escola {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-escola img {
+  width: 5rem;
+}
+
+.menu-toggle-escola {
+  display: none;
+  cursor: pointer;
+}
+
+.bar-escola {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-escola {
+  list-style: none;
+  display: flex;
+}
+
+.menu-escola li {
+  margin-right: 20px;
+}
+
+.menu-escola a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.3s;
+  transition: 1s;
+  padding: 16px;
+}
+
+.menu-escola a:hover {
+  color: #23a57a;
+}
+
+.front {
+  width: 100%;
+  align-items: center;
+}
+
+.front img {
+  width: 100%;
+  height: 70rem;
+  object-fit: cover;
+  z-index: -1;
+  position: relative;
+}
+
+.apresentacao {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -8rem;
+  flex-wrap: wrap;
+}
+
+.apresentacao .boxone {
+  box-shadow: 1px 1px 10px -2px black;
+  width: 25rem;
+  height: 35rem;
+  background-color: white;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao .boxone img {
+  width: 14rem;
+}
+
+.apresentacao .boxone h1 {
+  font-size: 20pt;
+  width: 15rem;
+  margin-left: -80px;
+} 
+
+.apresentacao .boxone p{
+  margin-top: 20px;
+  width: 20rem;
+  color: gray;
+}
+
+.apresentacao .boxone a {
+  margin-left: -15rem;
+  text-decoration: underline;
+  padding: 50px;
+  transition: 0.5s;
+}
+
+.apresentacao .boxone a:hover {
+  font-size: 20pt;
+  transition: 0.5s;
+  position: relative;
+}
+
+.apresentacao .boxtwo {
+  box-shadow: 1px 1px 10px -2px black;
+  width: 25rem;
+  height: 35rem;
+  background-color: #047851;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.apresentacao .boxtwo h1 {
+  margin-bottom: -40px;
+  margin-top: 20px;
+}
+
+
+.apresentacao .boxtwo .sec {
+  padding: 20px;
+}
+
+.apresentacao .boxtwo .sec h1 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.apresentacao .boxtwo .sec p {
+  color: rgb(173, 173, 173);
+}
+
+
+.apresentacao .boxtwo .sec .cont {
+  background-color: #E9DB89;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.apresentacao .boxtwo .sec .cont:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15rem;
+}
+
+
+.cards .card {
+  box-shadow: 1px 1px 10px -2px black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  background-color: #047851;
+  cursor: pointer;
+}
+
+.cards .card:hover {
+  transform: rotate(-5deg);
+  margin-top: -5rem;
+  transition: 0.5s;
+  scale: 1.2;
+  box-shadow: 1px 1px 10px -2px #30edae;
+}
+
+.cards .card img{
+  max-width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.cards .card h2 {
+  color: white;
+  padding: 30px;
+  position: relative;
+}
+
+.cards .card .cnt {
+  position: relative;
+  width: 6rem;
+  height: 2rem;
+  background-color: #E9DB89;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  left: 3.5rem;
+  transition: 0.5s;
+}
+
+.cards .card .cnt:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+.rodp {
+  width: 100%;
+  height: 12rem;
+  background-color: #047851;
+  display:  grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10rem;
+}
+
+.rodp .contains {
+  border-right: 1px solid gray;
+  height: 80px;
+  margin-top: 4.5rem;
+  width: 100%;
+  text-align: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.rodp .contains span {
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.rodp .contains p {
+  color: rgb(156, 156, 156);
+}
+
+.rodp .contains img {
+  width: 1rem;
+  margin-bottom: 20px;
+  margin-left: -30px;
+  display: flex;
+
+}
+#menu {
+  display: none;
+}
+
+.responsive {
+  position: absolute;
+  left: 85%;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle-escola {
+    display: block;
+  }
+
+  .menu-escola {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #047851;
+  }
+
+  .menu-escola.show-escola {
+    display: flex;
+  }
+
+  .menu-escola li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+}

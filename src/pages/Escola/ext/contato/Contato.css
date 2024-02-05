@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.header-escola {
+    background-color: #047851;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .navbar-escola {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 5rem;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 16px;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #30edae;
+  }
+
+  .mapa {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+  }
+
+.formulario {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 35rem;display: flex;
+    flex-direction: column;
+}
+
+.formulario .conteudo {
+    margin-top: 20px;
+}
+
+.formulario .conteudo input {
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.formulario .conteudo button {
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    font-size: 12pt;
+    transition: 0.5s ease;
+    margin-top: 5.5rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+button:hover {
+    background-color: #047851;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.formulario .conteudo textarea {
+    width: 15rem;
+    height: 5rem;
+    padding: 12px;
+    position: absolute;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+
+.rdp {
+    width: 100%;
+    height: 12rem;
+    background-color: #047851;
+    display:  grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10rem;
+}
+
+.rdp .contains {
+    border-right: 1px solid gray;
+    height: 30px;
+    margin-top: 4.5rem;
+    width: 100%;
+    text-align: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.rdp .contains span {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rdp .contains p {
+    color: rgb(177, 177, 177);
+}
+
+.rdp .contains img {
+    width: 1rem;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-toggle-escola {
+    display: block;
+  }
+
+  .menu-escola {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #047851;
+  }
+
+  .menu-escola.show-escola {
+    display: flex;
+  }
+
+  .menu-escola li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#backservicos {
+    width: 100%;
+    object-fit: cover;
+    height: 70rem;
+    position: absolute;
+}
+
+.header-hospital {
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  color: #fff;
+  box-shadow: 1px 1px 10px -4px #06beaf;
+  background-color: transparent;
+}
+
+.navbar-hospital {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-hospital {
+  font-size: 20pt;
+  text-shadow: 1px 1px 2px black;
+  color: #06beaf;
+}
+
+.menu-toggle-hospital {
+  display: none;
+  cursor: pointer;
+}
+
+.bar-hospital {
+  width: 30px;
+  height: 3px;
+  background-color: #06beaf;
+  margin: 6px 0;
+  transition: 0.4s;
+  
+}
+
+.menu-hospital {
+  list-style: none;
+  display: flex;
+}
+
+.menu-hospital li {
+}
+
+.menu-hospital a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+  transition: 1s;
+  padding: 16px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.menu-hospital a:hover {
+  color: #06beaf;
+}
+
+.menu-hospital a:focus {
+  color: #06beaf;
+}
+
+.serv {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.serv .container-serv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;
+    margin-top: 20rem;
+    outline: none;
+    
+    margin-left: 10rem;
+}
+
+.serv .container-serv h1 {
+  color: rgb(125, 1, 1);
+  font-size: 15pt;
+  margin-top: 25rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+.serv .container-serv select {
+    width: 15rem;
+    height: 3rem;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px -2px black;
+    font-size: 12pt;
+    background-color: #06beaf;
+}
+
+.serv .container-serv select:hover {
+    border-radius: 0px 10px 0px 10px;
+    transition: 0.5s;
+}
+
+.serv .container-serv option {
+    background-color: transparent;
+}
+
+
+.srodape {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    margin-top: 10rem;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #06beaf;
+  }
+
+  .srodape .container-rodape {
+    width: 18rem;
+  }
+  .srodape .container-rodape h1{
+    color: white;
+    font-size: 20pt;
+  }
+  .srodape .container-rodape a {
+    color: gray;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .srodape .container-rodape p {
+    color: gray;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  @media screen and (max-width: 768px) {
+    .menu-toggle-hospital {
+      display: block;
+    }
+  
+    .menu-hospital {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.082);
+    }
+  
+    .menu-hospital.show-hospital {
+      display: flex;
+    }
+  
+    .menu-hospital li {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#backsil {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.header-casa {
+    background-color: transparent;
+    padding: 15px;
+    color: #fff;
+    box-shadow: none;
+    backdrop-filter: blur(0px);
+  }
+  
+  .navbar-casa {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-casa img {
+    width: 8rem;
+    margin-top: 10px;
+  }
+  
+  .menu-toggle-casa {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar-casa {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-casa {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-casa li {
+    margin-right: 20px;
+  }
+  
+  .menu-casa a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.3s;
+    transition: 1s;
+    text-shadow: 1px 1px 3px black;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .menu-casa a:hover {
+    color: antiquewhite;
+    font-size: 20pt;
+  }
+
+  .rodape-casa-contato {
+    width: 100%;
+    height: 22rem;
+    margin-top: 17rem;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+
+  }
+
+  .rodape-casa-contato .rodape-content h1 {
+    margin-bottom: 10px;
+  }
+
+  .rodape-casa-contato .rodape-content iframe {
+    box-shadow: 1px 1px 10px -2px white;
+    border-radius: 20px;
+    transition: 0.5s;
+
+  }
+  .rodape-casa-contato .rodape-content iframe:hover {
+    rotate: -10deg;
+    transition: 0.5s;
+    scale: 1.1;
+
+  }
+  .rodape-casa-contato .rodape-content p {
+    color: gray;
+    font-size: 15pt;
+    margin-bottom: 10px;
+    }
+
+    .rodape-casa-contato .rodape-content a {
+      color: gray;
+      display: flex;
+      font-size: 15pt;
+      margin-left: 1px;
+      margin-top: 10px;
+      text-decoration: underline;
+    }
+  
+    .rodape-casa-contato .rodape-content .linke {
+      display: flex;
+      flex-direction: row;
+      margin-left: 5rem;
+      margin-bottom: 10px;
+    }
+  @media screen and (max-width: 768px) {
+    .menu-toggle-casa {
+      display: block;
+    }
+  
+    .menu-casa {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.228);
+    }
+  
+    .menu-casa.show-casa {
+      display: flex;
+    }
+  
+    .menu-casa li {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+    }
+      
+  .navbar-escola-casa {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  }

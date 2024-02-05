@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+  
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: white;
+
+
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: rgb(2,0,36);
+  background-color: #047851;
+}
+
+.header-escola {
+  background-color: #047851;
+  padding: 15px;
+  color: #fff;
+}
+
+.navbar-escola {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-escola img {
+  width: 5rem;
+}
+
+.menu-toggle-escola {
+  display: none;
+  cursor: pointer;
+}
+
+.bar-escola {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-escola {
+  list-style: none;
+  display: flex;
+}
+
+.menu-escola li {
+  margin-right: 20px;
+}
+
+.menu-escola a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.3s;
+  transition: 1s;
+  padding: 16px;
+}
+
+.menu-escola a:hover {
+  color: #23a57a;
+}
+
+.conteudoSobre  {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.conteudoSobre img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.conteudoSobre h1 {
+  margin-top: 5rem;
+}
+
+.conteudoSobre .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 10rem;
+}
+
+.conteudoSobre .itens {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.conteudoSobre .itens  h2 {
+  margin-bottom: 20px;
+  font-size: 20pt;
+}
+
+.conteudoSobre .itens  p {
+  width: 30rem;
+  font-size: 16pt;
+  color: rgb(66, 66, 66);
+}
+
+.conteudoSobre .itens  img {
+  margin-bottom: 20px;
+  width: 3rem;
+  height: 3rem;
+}
+
+#bio {
+  width: 2rem;
+  height: 2rem;
+}
+
+.rdpe {
+    width: 100%;
+    height: 12rem;
+    background-color: #047851;
+    display:  grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top:20rem;
+}
+
+.rdpe .contains {
+    border-right: 1px solid gray;
+    height: 30px;
+    margin-top: 4.5rem;
+    width: 100%;
+    text-align: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.rdpe .contains span {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rdpe .contains p {
+    color: rgb(185, 185, 185);
+}
+
+.rdpe .contains img {
+    width: 1rem;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    display: flex;
+
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle-escola {
+    display: block;
+  }
+
+  .menu-escola {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #047851;
+  }
+
+  .menu-escola.show-escola {
+    display: flex;
+  }
+
+  .menu-escola li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+}
