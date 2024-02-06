@@ -24,8 +24,8 @@ export default function Hospital() {
           <div className="bar-hospital"></div>
         </div>
         <ul className={`menu-hospital ${showMenu ? 'show-hospital' : ''}`}>
-          <li><a href="/hospital">Início</a></li>
-          <li><a href="/servicos">Serviços</a></li>
+          <li><a href="site-ong/#/hospital">Início</a></li>
+          <li><a href="site-ong/#/servicos">Serviços</a></li>
           <li><a href="#sobre">Sobre</a></li>
         </ul>
       </nav>
@@ -35,8 +35,8 @@ export default function Hospital() {
                 <h1>O hospital da família</h1>
                 <p>Cuidando da sua saúde</p>
             <div className="container-apresent">
-                <div className="secum"><a href='/sobre-hospital'>Sobre</a></div>
-                <div className="secdois"><a href='/servicos'>Serviços</a></div>
+                <div className="secum"><a href='site-ong/#/sobre-hospital'>Sobre</a></div>
+                <div className="secdois"><a href='site-ong/#/servicos'>Serviços</a></div>
             </div>
         </div>
 
@@ -61,8 +61,8 @@ export default function Hospital() {
         <div className="hrodape">
             <div className="container-rodape">
                 <h1>Serviços rápidos</h1>
-                <a href="/servicos">Serviços</a>
-                <a href="/sobre-hospital">Sobre</a>
+                <a href="site-ong/#/servicos">Serviços</a>
+                <a href="site-ong/#/sobre-hospital">Sobre</a>
             </div>
             <div className="container-rodape">
                 <h1>Contato</h1>

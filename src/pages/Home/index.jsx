@@ -30,11 +30,11 @@ export default function Home() {
     </label>
     <nav class="navbar-home">
       <ul class="nav-list">
-        <li><a href="/escola"><img id='imgresponsive' src={escola}/>Escola</a></li>
+        <li><a href="site-ong/#/escola"><img id='imgresponsive' src={escola}/>Escola</a></li>
         <hr id='hr'></hr>
-        <li><a href="/casa"><img id='imgresponsive' src={igreja}/>Igreja</a></li>
+        <li><a href="site-ong/#/casa"><img id='imgresponsive' src={igreja}/>Igreja</a></li>
         <hr id='hr'></hr>
-        <li><a href="/hospital"><img id='imgresponsive' src={hospital}/>Hospital</a></li>
+        <li><a href="site-ong/#/hospital"><img id='imgresponsive' src={hospital}/>Hospital</a></li>
 
       </ul>
     </nav>
@@ -90,9 +90,9 @@ export default function Home() {
         </div>
         <div className="boxer">
         <h1>Mais informações</h1>
-        <a href="/igreja">Igreja</a>
-        <a href="/escola">Escola</a>
-        <a href="/hospital">Hospital</a>
+        <a href="site-ong/#/igreja">Igreja</a>
+        <a href="site-ong/#/escola">Escola</a>
+        <a href="site-ong/#/hospital">Hospital</a>
         </div>
   
        

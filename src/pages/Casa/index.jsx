@@ -24,9 +24,9 @@ export default function Casa() {
           <div className="bar-casa"></div>
         </div>
         <ul className={`menu-casa ${showMenu ? 'show-casa' : ''}`}>
-          <li><a href="/casa">Início</a></li>
-          <li><a href="/sobre-casa">Sobre</a></li>
-          <li><a href="/cursos">Cursos</a></li>
+          <li><a href="site-ong/#/casa">Início</a></li>
+          <li><a href="site-ong/#/sobre-casa">Sobre</a></li>
+          <li><a href="site-ong/#/cursos">Cursos</a></li>
         </ul>
       </nav>
     </header>
