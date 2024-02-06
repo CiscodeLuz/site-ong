@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Escola from "./pages/Escola";
 import MaisSobre from "./pages/Escola/ext/maissobre";
@@ -12,7 +12,7 @@ import CttCasa from "./pages/Casa/ext/contatoCasa/index.jsx";
 
 export default function AppRoutes() {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/escola" element={<Escola/>}></Route>
@@ -25,6 +25,6 @@ export default function AppRoutes() {
                 <Route path="/cursos" element={<Cursos/>}></Route>
                 <Route path="/contato-casa" element={<CttCasa/>}></Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }

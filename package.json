@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ciscodeluz.github.io/ongweb",
+  "homepage": "https://ciscodeluz.github.io/ong",
   "name": "ong",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.21"
   },
   "scripts": {
     "predeploy": "npm run build",
