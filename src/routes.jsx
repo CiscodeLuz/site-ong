@@ -14,16 +14,16 @@ export default function AppRoutes() {
     return(
         <HashRouter>
             <Routes>
-                <Route path="site-ong/#/" element={<Home/>}></Route>
-                <Route path="site-ong/#/escola" element={<Escola/>}></Route>
-                <Route path="site-ong/#/leiamais" element={<MaisSobre/>}></Route>
-                <Route path="site-ong/#/contato" element={<Contato/>}></Route>
-                <Route path="site-ong/#/hospital" element={<Hospital/>}></Route>
-                <Route path="site-ong/#/servicos" element={<Servicos/>}></Route>
-                <Route path="site-ong/#/casa" element={<Casa/>}></Route>
-                <Route path="site-ong/#/sobre-casa" element={<Sobre/>}></Route>
-                <Route path="site-ong/#/cursos" element={<Cursos/>}></Route>
-                <Route path="site-ong/#/contato-casa" element={<CttCasa/>}></Route>
+                <Route path="/" element={<Home/>}></Route>
+                <Route path="/escola" element={<Escola/>}></Route>
+                <Route path="/leiamais" element={<MaisSobre/>}></Route>
+                <Route path="/contato" element={<Contato/>}></Route>
+                <Route path="/hospital" element={<Hospital/>}></Route>
+                <Route path="/servicos" element={<Servicos/>}></Route>
+                <Route path="/casa" element={<Casa/>}></Route>
+                <Route path="/sobre-casa" element={<Sobre/>}></Route>
+                <Route path="/cursos" element={<Cursos/>}></Route>
+                <Route path="/contato-casa" element={<CttCasa/>}></Route>
             </Routes>
         </HashRouter>
     )

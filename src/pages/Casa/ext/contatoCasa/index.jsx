@@ -22,17 +22,17 @@ export default function CttCasa() {
           <div className="bar-casa"></div>
         </div>
         <ul className={`menu-casa ${showMenu ? 'show-casa' : ''}`}>
-          <li><a href="site-ong/#/casa">Início</a></li>
-          <li><a href="site-ong/#/sobre-casa">Sobre</a></li>
-          <li><a href="site-ong/#/cursos">Cursos</a></li>
+          <li><a href="#/casa">Início</a></li>
+          <li><a href="#/sobre-casa">Sobre</a></li>
+          <li><a href="#/cursos">Cursos</a></li>
         </ul>
       </nav>
     </header>
     <div className="rodape-casa-contato">
         <div className="rodape-content">
           <h1>Guia</h1>
-          <a href="/sobre-casa">Sobre</a> 
-          <a href="/cursos">Cursos</a>  
+          <a href="#/sobre-casa">Sobre</a> 
+          <a href="#/cursos">Cursos</a>  
         </div>
         <div className="rodape-content">
           <h1>Fale conosco</h1>

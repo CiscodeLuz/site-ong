@@ -20,10 +20,10 @@ export default function Contato() {
           <div className="bar-escola"></div>
         </div>
         <ul className={`menu-escola ${showMenu ? 'show-escola' : ''}`}>
-          <li><a href="/escola">Home</a></li>
-          <li><a href="/leiamais">Sobre</a></li>
-          <li><a href="/contato">Matricule-se</a></li>
-          <li><a href="/contato">Contato</a></li>
+          <li><a href="#/escola">Home</a></li>
+          <li><a href="#/leiamais">Sobre</a></li>
+          <li><a href="#/contato">Matricule-se</a></li>
+          <li><a href="#/contato">Contato</a></li>
         </ul>
       </nav>
     </header>

@@ -21,9 +21,9 @@ export default function Servicos() {
           <div className="bar-hospital"></div>
         </div>
         <ul className={`menu-hospital ${showMenu ? 'show-hospital' : ''}`}>
-          <li><a href="site-ong/#/hospital">Início</a></li>
-          <li><a href="site-ong/#/servicos">Serviços</a></li>
-          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#/hospital">Início</a></li>
+          <li><a href="#/servicos">Serviços</a></li>
+          <li><a href="#/hospital">Sobre</a></li>
         </ul>
       </nav>
     </header>
@@ -75,8 +75,8 @@ export default function Servicos() {
     <div className="srodape">
             <div className="container-rodape">
                 <h1>Serviços rápidos</h1>
-                <a href="site-ong/#/servicos">Serviços</a>
-                <a href="">Sobre</a>
+                <a href="#/servicos">Serviços</a>
+                <a href="#/hospital">Sobre</a>
             </div>
             <div className="container-rodape">
                 <h1>Contato</h1>

@@ -24,9 +24,9 @@ export default function Casa() {
           <div className="bar-casa"></div>
         </div>
         <ul className={`menu-casa ${showMenu ? 'show-casa' : ''}`}>
-          <li><a href="site-ong/#/casa">Início</a></li>
-          <li><a href="site-ong/#/sobre-casa">Sobre</a></li>
-          <li><a href="site-ong/#/cursos">Cursos</a></li>
+          <li><a href="#/casa">Início</a></li>
+          <li><a href="#/sobre-casa">Sobre</a></li>
+          <li><a href="#/cursos">Cursos</a></li>
         </ul>
       </nav>
     </header>
@@ -38,7 +38,7 @@ export default function Casa() {
         Chico Xavier
           </h1>
           <p>    ALIANÇA ESPÍRITA EVANGÉLICA CRISTÃ </p>
-          <a href='/contato-casa'>
+          <a href='#/contato-casa'>
           <div className="visite">
             Visite-nos
           </div>
@@ -59,9 +59,9 @@ export default function Casa() {
       <div className="rodape-casa">
         <div className="rodape-content">
           <h1>Guia</h1>
-          <a href="/sobre-casa">Sobre</a> 
-          <a href="/cursos">Cursos</a>  
-          <a href="/contato">Contato</a>  
+          <a href="#/sobre-casa">Sobre</a> 
+          <a href="#/cursos">Cursos</a>  
+          <a href="#/contato">Contato</a>  
         </div>
         <div className="rodape-content">
           <h1>Fale conosco</h1>

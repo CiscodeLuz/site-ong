@@ -30,10 +30,10 @@ export default function Escola() {
           <div className="bar-escola"></div>
         </div>
         <ul className={`menu-escola ${showMenu ? 'show-escola' : ''}`}>
-          <li><a href="site-ong/#/escola">Home</a></li>
-          <li><a href="site-ong/#/leiamais">Sobre</a></li>
-          <li><a href="site-ong/#/contato">Matricule-se</a></li>
-          <li><a href="site-ong/#/contato">Contato</a></li>
+          <li><a href="#/escola">Home</a></li>
+          <li><a href="#/leiamais">Sobre</a></li>
+          <li><a href="#/contato">Matricule-se</a></li>
+          <li><a href="#/contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -52,7 +52,7 @@ export default function Escola() {
           <p>A ESCOLA ALLAN KARDEC é uma instituição sem fins lucrativos.
           Temos como missão ensinar crianças,
           embasadas na metodologia de Pestalozzi.</p>
-          <a href="/leiamais">Leia Mais</a>
+          <a href="#/leiamais">Leia Mais</a>
         </div>
         <div className="boxtwo">
           <h1>O que oferecemos ?</h1>
@@ -87,7 +87,7 @@ export default function Escola() {
         <div id='desscard' className="card">
           <img src={infantil}/>
           <h2>Ensino infantil</h2>
-          <a href="/contato">
+          <a href="#/contato">
             <div className="cnt">
               <span>Saiba Mais</span>
             </div>
@@ -97,7 +97,7 @@ export default function Escola() {
         <div className="card">
           <img src={fundamental}/>
           <h2>Ensino fundamental</h2>
-          <a href="/contato">
+          <a href="#/contato">
             <div className="cnt">
               <span>Saiba Mais</span>
             </div>
@@ -107,7 +107,7 @@ export default function Escola() {
         <div className="card">
           <img src={medio}/>
           <h2>Ensino médio</h2>
-          <a href="/contato">
+          <a href="#/contato">
             <div className="cnt">
               <span>Saiba Mais</span>
             </div>
@@ -117,7 +117,7 @@ export default function Escola() {
         <div className="card">
           <img src={superior}/>
           <h2>Ensino superior</h2>
-          <a href="/contato">
+          <a href="#/contato">
             <div className="cnt">
               <span>Saiba Mais</span>
             </div>
@@ -127,7 +127,7 @@ export default function Escola() {
         <div className="card">
           <img src={ensino}/>
           <h2>Idiomas</h2>
-          <a href="/contato">
+          <a href="#/contato">
             <div className="cnt">
               <span>Saiba Mais</span>
             </div>

@@ -24,9 +24,9 @@ export default function Hospital() {
           <div className="bar-hospital"></div>
         </div>
         <ul className={`menu-hospital ${showMenu ? 'show-hospital' : ''}`}>
-          <li><a href="site-ong/#/hospital">Início</a></li>
-          <li><a href="site-ong/#/servicos">Serviços</a></li>
-          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#/hospital">Início</a></li>
+          <li><a href="#/servicos">Serviços</a></li>
+          <li><a href="#/hospital">Sobre</a></li>
         </ul>
       </nav>
     </header>
@@ -35,8 +35,8 @@ export default function Hospital() {
                 <h1>O hospital da família</h1>
                 <p>Cuidando da sua saúde</p>
             <div className="container-apresent">
-                <div className="secum"><a href='site-ong/#/sobre-hospital'>Sobre</a></div>
-                <div className="secdois"><a href='site-ong/#/servicos'>Serviços</a></div>
+                <div className="secum"><a href='#/hospital'>Sobre</a></div>
+                <div className="secdois"><a href='#/servicos'>Serviços</a></div>
             </div>
         </div>
 
@@ -44,10 +44,11 @@ export default function Hospital() {
         <div className="meio">
             <div className="formu">
             <div className="box"><h1>Faça seu<br/>pré cadastro</h1></div>
-            <form action="https://formsubmit.co/ramaldesmts@gmail.com" method="POST">
+            <form action="https://formsubmit.co/eak.adm@hotmail.com" method="POST">
             <input type="text" name="name" placeholder="Seu nome..." required/>
             <input type="email" name="email" placeholder="Seu e-mail..." required/>
             <input type="tel" name="tel" placeholder="Seu telefone..." required/>
+            <textarea name="message" placeholder="Escreva aqui..."></textarea>
             <input type="hidden" name="_template" value="table"/>
             <button type="submit">Enviar</button>
             </form>
@@ -61,8 +62,8 @@ export default function Hospital() {
         <div className="hrodape">
             <div className="container-rodape">
                 <h1>Serviços rápidos</h1>
-                <a href="site-ong/#/servicos">Serviços</a>
-                <a href="site-ong/#/sobre-hospital">Sobre</a>
+                <a href="#/servicos">Serviços</a>
+                <a href="#/hospital">Sobre</a>
             </div>
             <div className="container-rodape">
                 <h1>Contato</h1>

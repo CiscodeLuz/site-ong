@@ -8,10 +8,10 @@ export default function Info() {
 <div className="navB">
             <div className="container">
           <img className="imgborder" src={logoEscola}></img>
-          <a href="/escola">HOME</a>
-          <a href="/leiamais">A ESCOLA</a>
+          <a href="#/escola">HOME</a>
+          <a href="#/leiamais">A ESCOLA</a>
           <a href="">AULAS</a>
-          <a href="/contato">CONTATO</a>
+          <a href="#/contato">CONTATO</a>
           </div>
       </div>
 
