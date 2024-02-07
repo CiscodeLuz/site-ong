@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-ong/static/css/main.c23a4d3a.css",
-    "main.js": "/site-ong/static/js/main.e5343ace.js",
+    "main.css": "/site-ong/static/css/main.ed456ae7.css",
+    "main.js": "/site-ong/static/js/main.c0269122.js",
     "static/media/vida.png": "/site-ong/static/media/vida.bb32f80671bf9042e0df.png",
     "static/media/Estatuto Social Averbado.pdf": "/site-ong/static/media/Estatuto Social Averbado.c0f4af593299f1a04b58.pdf",
     "static/media/instrumentos.jpg": "/site-ong/static/media/instrumentos.099974fa96727f01c240.jpg",
@@ -38,11 +38,11 @@
     "static/media/hospital.png": "/site-ong/static/media/hospital.4dc6f2df40c9351ead76.png",
     "static/media/logo.svg": "/site-ong/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/site-ong/index.html",
-    "main.c23a4d3a.css.map": "/site-ong/static/css/main.c23a4d3a.css.map",
-    "main.e5343ace.js.map": "/site-ong/static/js/main.e5343ace.js.map"
+    "main.ed456ae7.css.map": "/site-ong/static/css/main.ed456ae7.css.map",
+    "main.c0269122.js.map": "/site-ong/static/js/main.c0269122.js.map"
   },
   "entrypoints": [
-    "static/css/main.c23a4d3a.css",
-    "static/js/main.e5343ace.js"
+    "static/css/main.ed456ae7.css",
+    "static/js/main.c0269122.js"
   ]
 }
